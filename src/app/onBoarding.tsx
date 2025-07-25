@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
-    backgroundColor: "#39C0D4",
+    backgroundColor: "#39C2D6",
   },
   ball: {
     position: "absolute",
