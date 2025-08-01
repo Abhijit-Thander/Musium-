@@ -20,7 +20,7 @@ export default TopMixCard;
 
 const styles = StyleSheet.create({
   card: {
-    width: 140,
+    width: 160,
     backgroundColor: Colors.card,
     borderRadius: 8,
     overflow: "hidden",
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
   },
   image: {
     width: "100%",
-    height: 120,
+    height: 160,
     marginBottom: 10,
   },
   title: {

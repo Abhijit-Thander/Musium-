@@ -13,7 +13,7 @@ import {
 import { SafeAreaView } from "react-native-safe-area-context";
 import { continueListening } from "@assets/data/continue";
 import { topMixes } from "@assets/data/TopMixes";
-import { basedOnListeningHabits } from "@assets/data/listeningHabbit";
+import { basedOnYourListeningHabits } from "@assets/data/listeningHabbit";
 
 import Colors from "@/constants/Colors";
 import TopMixCard from "@/components/TopMixCard";
@@ -80,7 +80,7 @@ export default function HomePageScreen() {
               Based on your listening habits
             </Text>
             <FlatList
-              data={basedOnListeningHabits}
+              data={basedOnYourListeningHabits}
               horizontal
               keyExtractor={(item) => item.id}
               renderItem={({ item }) => <ListeningHabbit item={item} />}
