@@ -59,7 +59,7 @@ export default function HomePageScreen() {
                 renderItem={({ item }) => <ContinueListening item={item} />}
                 numColumns={2}
                 columnWrapperStyle={{ justifyContent: "space-between" }}
-                contentContainerStyle={{ gap: 10, marginTop: 6 }}
+                contentContainerStyle={{ gap: 20, marginTop: 6 }}
                 scrollEnabled={false} // ⚠️ Prevent nested scrolling
               />
             </View>
